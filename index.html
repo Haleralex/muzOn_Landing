@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>muzOn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Apper"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Особенности</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#download">Загрузки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Цены</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакты</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section id="hero">
+
+        <div class="container">
+
+            <div class="row main-hero-content">
+
+                <div class="col-md-6">
+                    <h1>ОЦЕНИВАЙТЕ МУЗЫКУ С ПОМОЩЬЮ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА</h1>
+                    <p>Получите шанс стать величайшим музыкантом!</p>
+                    <div class="hero-buttons">
+                        <button class="btn-contact" onclick="open_modal()"> Опробовать </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-box">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading-dark">О нас</h2>
+            </div>
+
+            <div class="row justify-content-center text-center mt-5">
+
+                <div class="col-md-4">
+                    <i class="fas fa-cogs fa-3x mb-2"></i>
+                    <h3>тонкие настройки</h3>
+                    <p>Задавайте свои инструкции оценки музыкального произведения, используя все жанры и все музыкальные предпочтения</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-brain fa-3x mb-2"></i>
+                    <h3>возможности ИИ</h3>
+                    <p>Мы используем новейшие технологии искусственного интеллекта и нейронных сетей для выполнения своих задач</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-mobile fa-3x mb-2"></i>
+                    <h3>Монолитность</h3>
+                    <p>Подключение к интернету - не обязательное условие использования нашего приложения. Нужен лишь девайс с нашим приложением</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Feature section -->
+    <section id="features">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading-white">Особенности приложения</h2>
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-md-4">
+                    <div class="feature-block">
+                        <img src="assets/img/comp.png" alt="">
+                        <h3 class="text-center">Мультиплатформенность</h3>
+                        <p>Операционная система Вашего девайса не важна. Поддерживаются все возможные платформы.</p>
+                    </div>
+                    <div class="feature-block mt-5">
+                        <img src="assets/img/zamok.png" alt="">
+                        <h3 class="text-center">безопасность</h3>
+                        <p>Все Ваши данные хранятся под надёжной защитой.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 device">
+
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-block">
+                        <img src="assets/img/chel.png" alt="">
+                        <h3 class="text-center">24/7 поддержка</h3>
+                        <p>По любому вопросу, пользователи имеют возможность обратиться к нашей поддержки когда угодно.</p>
+                    </div>
+                    <div class="feature-block mt-5">
+                        <img src="assets/img/serdce.png" alt="">
+                        <h3 class="text-center">современный и приятный дизайн</h3>
+                        <p>Всегда приятно возвращаться в красивое и удобное приложение.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Download section -->
+    <section id="download">
+        <div class="container">
+            <div class="row download-title justify-content-center">
+                <h2>Загрузки</h2>
+                <p>Скачать приложение на мобильные платформы</p>
+                <div class="download-btns">
+                    <a href="#"><i class="fab fa-apple"></i> App Store</a>
+                    <a href="#"><i class="fab fa-android"></i> Play Store</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Pricing section -->
+    <section id="pricing">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading-dark">pricing plans</h2>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md pricing-table">
+
+                    <div class="table-header text-center">
+                        <h4>бесплатный</h4>
+                        <p>$0/месяц</p>
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>1 доступный жанр: поп</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">order now</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md pricing-table">
+
+                    <div class="table-header text-center">
+                        <h4>базовый</h4>
+                        <p>$50/месяц</p>
+                        <img src="assets/img/sale-badge.png" alt="">
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>все существующие жанры</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">order now</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md pricing-table">
+
+                    <div class="table-header text-center">
+                        <h4>про</h4>
+                        <p>$125/месяц</p>
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>все существующие жанры</li>
+                            <li>
+                                юридическая помощь в<br>
+                                оформление патента
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">order now</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <div id="modal">
+        <div class=""></div>
+        <div class="close" onclick="close_modal()">
+            <p></p>
+            <p></p>
+        </div>
+        <h4>Мы сообщим о релизе</h4>
+        
+
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScqVipbt1uTl8ImE-QAYDKC2y2Dds5ezeyH0_6oRuOH6i15_g/formResponse" method="post">
+            <div class="form-group">
+                <label for="name" class="col-form-label">Имя:</label>
+                <input type="text" class="form-control" id="name" name="entry.811274581">
+            </div>
+            <div class="form-group">
+                <label for="phone" class="col-form-label">Телефон:</label>
+                <input type="tel" name="entry.1173758563" id="phone" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-form-label">Электронный адрес:</label>
+                <input type="email" name="entry.1301841707" id="email" class="form-control">
+            </div>
+            <button class="btn btn-secondary" id="btn1">Отправить</button>
+        </form>
+    </div>
+
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading-dark">свяжитесь с нами</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Имя">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Почта">
+                                </div>
+                            </div>
+                            <div class="form-group mt-4">
+                                <textarea class="form-control" rows="10" placeholder="Ваше сообщение"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-contact mt-4">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="address">
+                        <h3>Местоположение</h3>
+                        <p>Наш головной офис находится в городе Казань, но вы можете связаться с нами по телефону или написать на почту</p>
+                    </div>
+                    <div class="contact-details">
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>8-800-555-35-35</li>
+                            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>г. Казань, Кремлёвская 35</li>
+                            <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>muzon@gmail.com</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Footer section -->
+    <footer id="footer">
+
+        <div class="container">
+
+            <div class="row d-flex flex-column align-items-center">
+
+                <div class="footer-logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="copyright text-center">
+                    <p>Copyright 2020</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.superslides.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script>
+        var modal_window = $('modal_window')
+        function open_modal(i) {
+            $('#modal').fadeIn();
+            $(modal_window[i]).fadeIn();
+        };
+        function close_modal() {
+            $('#modal').fadeOut();
+        };
+    </script>
+</body>
+</html>
